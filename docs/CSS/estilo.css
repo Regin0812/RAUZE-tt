@@ -1,0 +1,164 @@
+.total{
+  background-color: #FAEDCD;
+  border-radius: 15px;
+}
+#sobre h2{
+ border-bottom: solid 10px #ccd5ae;
+ padding-left: 2%; 
+ color: #CCD5AE;
+ font-size: 900%;
+ font-family: sans-serif;
+ padding-bottom: 2%;
+}
+.imagem{
+  display: flex;
+}
+
+.imagem p{
+  font-family: Garamond ;
+  text-align: left;
+  padding-right: 20%;
+  padding-left:1%;
+  font-size: 150%;
+}
+
+.imagem img{
+  padding-left: 1.5%;
+  height: 30%;
+  width: 30%;
+  border-radius: 150px;
+}
+
+
+/* animação pra direita */
+@-webkit-keyframes slideInLeft{
+    from {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .slideInLeft {
+    padding-top: 10%;
+    border-bottom: solid 15px #92857e;
+    padding-left: 5%;
+    display: block ;
+   font-family: Bauhaus;
+    font-size:1500%;
+    color: #92857e;
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+  }
+  
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  /*animação pra esquerda*/
+
+  @-webkit-keyframes slideInRight {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .slideInRight {
+    height: 500px;
+    padding-top: 0;
+    padding-left: 5%;
+    display: block ;
+    font-family: Bauhaus;
+     font-size:500%;
+     color: #92857e;
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+  }
+  
+  .animated {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  /*------------------------------------------------*/
+
+  @-webkit-keyframes slideInRight {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .slideInRight2 {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+  }
+  
+  .animated {
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
